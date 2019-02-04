@@ -1,0 +1,60 @@
+body{
+	background: #C5F2F1;
+}
+#tableform{
+	align-content: center;
+	 margin: 0 auto;
+	 background: #8F8F91;
+	 padding: 30px;
+	 color: white;
+	 font-weight: bold;
+	}
+#boton{
+	margin-left: 430px;
+}
+#restablecer1{
+	margin-left: 650px;
+}
+.btn-success{
+	height: 30px;
+	border-radius: 5px;
+	font-weight: bold;
+	box-shadow: -webkit-box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.75);
+				-moz-box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.75);
+				box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.75);
+			}
+.btn-success:hover{
+	background: #5AD116;
+}
+.btn-danger{
+	height: 30px;
+	border-radius: 5px;
+	font-weight: bold;
+	box-shadow: -webkit-box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.75);
+				-moz-box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.75);
+				box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.75);
+}
+.btn-danger:hover{
+	background: red;
+}
+#editar{
+	border-radius: 5px;
+}
+
+#editar:hover{
+	background: yellow;
+}
+
+#eliminar{
+	border-radius: 5px;
+}
+#eliminar:hover{
+	background: red;
+}
+
+#encabezado{
+	background: #CAC8C8;
+}
+#content{
+	background: #A6BAFA;
+}

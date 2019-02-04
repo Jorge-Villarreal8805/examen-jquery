@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>JQUERY</title>
+</head>
+<body>
+	<div id="container">
+	<h1 style="text-align: center;">Registro Estudiantes</h1>
+	<div>
+	<table id="tableform">
+		<form>
+		<tbody>
+			<tr>
+				<td>
+	<label for="codigo">Código:</label>
+	</td>
+	<td>
+	<input type="text" id="codigo" disabled><br><br>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<label for="nombre">Nombre:</label>
+	</td>
+	<td>
+	<input type="text" id="nombre"><br><br>
+	</td>
+	</tr>
+	<tr>
+		<td>
+	<label for="apellido">Apellido:</label>
+	</td>
+	<td>
+	<input type="text" id="apellido"><br><br>
+	</td>
+	</tr>
+	<tr>
+		<td>
+	<label for="nota">Nota:</label>
+	</td>
+	<td>
+	<input type="text" id="nota">
+	</td>
+	</tr>
+		</tbody>
+		</form>
+	</table>
+	</div>
+	<br>
+	<br>
+	<div id="boton">
+	<input type="button" class="btn btn-success" id="Reg_Estudiante" value="Registrar Estudiante">
+	<input type="button" class="btn btn-success" id="promedio" value="Mostrar Promedio">
+	<input type="button" class="btn btn-success" id="notaMayor" value="Mostrar Nota Mayor">
+	<input type="button" class="btn btn-success" id="notaMenor" value="Mostrar Nota Menor">
+	</div>
+	<br><br>
+	<div id="restablecer1">
+	<input type="button" class="btn btn-danger" id="restablecer" value="Restablecer">
+	</div>
+	<h1 style="text-align: center;">Listado de Estudiantes</h1>
+	<div id="boton">
+	<p id="p1"></p>
+	</div>
+	
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
